@@ -1,0 +1,13 @@
+[package]
+name = "libserver"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bytes = "1.10.0"
+futures = "0.3.31"
+http-body-util = "0.1.2"
+hyper = { version = "1", features = ["full"] }
+hyper-util = { version = "0.1.10", features = ["full"] }
+tokio = { version = "1.42.0", features = ["full"] }
+tower = { version = "0.5.2", features = ["util"] }
